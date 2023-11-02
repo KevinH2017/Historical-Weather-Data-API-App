@@ -2,7 +2,7 @@ from flask import Flask, render_template
 import pandas as pd
 
 # Points default template and static folders to target folders
-app = Flask(__name__, template_folder="./app6/templates", static_url_path="/app6/static")
+app = Flask(__name__)
 
 # "/" is root webpage
 @app.route("/")
