@@ -1,7 +1,6 @@
 from flask import Flask, render_template
 import pandas as pd
 
-# Points default template and static folders to target folders
 app = Flask(__name__)
 
 # "/" is root webpage
